@@ -1,0 +1,200 @@
+/* ================||ROTATE PHONE||================ */
+ 
+@media screen and (orientation: landscape) and (max-width: 960px) {
+
+.main-portfolio {
+  min-height: 100vh;
+}
+  
+.about-page {
+padding-bottom: 100px;
+}
+
+.projects-page {
+  padding-bottom: 100px;
+}
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* ================||TABLETS||================ */
+
+@media screen and (min-width: 768px) {
+  :root {
+/* ================||COLORS||================ */
+--nav-bgcolor: rgb(0, 0, 0);
+--font-color: white;
+--page-bgcolor:  #000d20;
+
+/* ================||SHADOW||================ */
+--text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+/* ================||SIZES||================ */
+--nav-height: 70px;
+--icon-logo-height: 35px;
+--icon-logo-width: 35px;
+--small-font-size: 14px; 
+--mid-font-size: 20px;
+--big-font-size: 45px;
+--nav-font-size: 22px;
+--nav-body-pad-top: 150px;
+--font-bold: 600;
+--padding-header: 0 40px;
+--padding-top-info: 1.5rem;
+--padding-left-right-info-main: 2rem;
+--project-content-img:300px;
+--project-container-mar-top: 2.5rem;
+--project-condent-top-bottom-pad:0.6rem;
+--buttons-pad:10px;
+--promote-icons-size:50px;
+--promote-icons-radius:25px;
+--see-more-pad-top:50px;
+}
+
+.nav-menu {
+  gap: 25px;
+  padding: 0;
+  min-height: 28vh;
+  padding: 25px 0;
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding-top: 0;
+}
+
+.projects-page {
+  min-height: 70vh;
+}
+
+.projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+.contact{
+  min-height: 80vh;
+}
+
+.content-contact{
+  margin-top: 50px;
+}
+
+.form-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 600px;
+  padding: 50px;
+}
+
+  .buttons-form {
+    margin: 0;
+}
+
+.contact-buttons {
+  font-size: 18px;
+}
+
+.send-button {
+  width: 208%;
+  justify-self: center;
+  font-size: 18px;
+}
+
+}
+
+
+  /* ================||LAPTOPS||================ */
+
+@media screen and (min-width: 1024px) { 
+
+  .projects-page {
+  min-height: 95vh;
+}
+
+.promote{
+  padding-bottom: 20px;
+}
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    flex-direction: row;
+    gap: 25px;
+    background: none;
+    padding: 0;
+  }
+}
+
+
+  /* ================||DEKSTOPS , PC||================ */
+
+@media screen and (min-width: 1200px) { 
+
+  :root {
+/* ================||COLORS||================ */
+--nav-bgcolor: rgb(0, 0, 0);
+--font-color: white;
+--page-bgcolor:  #000d20;
+
+/* ================||SHADOW||================ */
+--text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+/* ================||SIZES||================ */
+--nav-height: 100px;
+--icon-logo-height: 45px;
+--icon-logo-width: 45px;
+--small-font-size: 16px; 
+--mid-font-size: 25px;
+--big-font-size: 80px;
+--nav-font-size: 26px;
+--nav-body-pad-top: 200px;
+--font-bold: 600;
+--padding-header: 0 60px;
+--padding-top-info: 2rem;
+--padding-left-right-info-main: 2.4rem;
+--project-content-img:400px;
+--project-container-mar-top: 2.5rem;
+--project-condent-top-bottom-pad:0.6rem;
+--buttons-pad:10px;
+--promote-icons-size:60px;
+--promote-icons-radius:30px;
+--see-more-pad-top:50px;
+}
+
+.about-page {
+  min-height: 85vh;
+}
+
+.about-me-p {
+  width: 50ch;
+  line-height: 2rem;
+}
+
+.projects-page {
+  padding-top: 10rem;
+}
+}
