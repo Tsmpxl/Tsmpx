@@ -222,6 +222,7 @@ html {
   flex-direction: column;
   background-color: rgb(2, 2, 24);
   border-radius: 10px;
+  curson:pointer;
 }
 
 .project-show {
@@ -434,4 +435,5 @@ html {
     -webkit-filter: invert(100%); 
     filter: invert(100%);
 }
+
 
