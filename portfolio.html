@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="portfolio-css/media-portfolio.css">
   <script src="js/button-nav.js" defer></script>
   <script src="js/copyright.js" defer></script>
+  <script src="js/contact.js" defer></script>
   <link rel="icon" href="icons/icon.png">
   <title>Tsmpxl Portfolio</title>
 </head>
@@ -72,14 +73,19 @@
         <div class="content-contact">
 
           <div class="contact-card-title">Get in touch</div>
-          <form class="form-contact">
+          <form  id="contactForm" class="form-contact" action="https://formspree.io/f/xwvvlwgl"
+  method="POST">
               <div><img class="spark invert" src="icons/sparkles.png" alt="sparkles"></div>
               <div><img class="send invert" src="icons/send.png" alt="send"></div>
               <div class="buttons-form"><input class="contact-buttons" type="text" id="fname" name="firstName" placeholder="First Name" required> <img class="icon-name" src="icons/profile.png" alt="name"></div>
               <div class="buttons-form"><input class="contact-buttons" type="text" id="lname" name="lastName" placeholder="Last Name" required><img class="icon-last" src="icons/surname.jpg" alt="last name"></div>
               <div class="buttons-form"><input class="contact-buttons" type="email" id="email" name="email" placeholder="Email" required> <img class="icon-email" src="icons/email.png" alt="email"></div>
               <div class="buttons-form"><input class="contact-buttons" type="tel" id="phone" name="phone" placeholder="Phone"> <img class="icon-phone" src="icons/phone.png" alt="phone"></div>
-              <div><button class="send-button" type="submit">Send</button></div>
+              
+              <div class="buttons-form message-box">
+                  <textarea class="contact-buttons contact-message" name="message" placeholder="Your message..." rows="4" required></textarea>
+            </div>
+            <div class="send-wrapper"><button class="send-button" type="submit">Send</button></div>
           </form>
         </div>
       </div>
