@@ -204,6 +204,15 @@ html {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 2.5rem;
+  position: relative;
+}
+
+.icon-not-working {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 325px;
+  left: 98px;
 }
 
 .container-projects {
@@ -216,15 +225,15 @@ html {
 }
 
 .project-show {
-  background-color: gray;
   width: var(--project-content-img);
   height:var(--project-content-img);
+  object-position: center;
   border-top-left-radius: 10px ;
   border-top-right-radius: 10px ;
 }
 
 .project-name {
-  font-size: 1.5rem;
+  font-size:clamp(1.5rem , 3vw , 2.2rem);
   font-weight: var(--font-bold);
   padding-top: var(--project-condent-top-bottom-pad);
   padding-bottom: var(--project-condent-top-bottom-pad);
@@ -241,6 +250,10 @@ html {
   padding-top: var(--see-more-pad-top);
   text-decoration: underline;
   cursor: pointer;
+}
+
+.more-projects:active {
+  opacity: 0.7;
 }
 
 
