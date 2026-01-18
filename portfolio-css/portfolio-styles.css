@@ -68,7 +68,18 @@ html {
   padding: var(--padding-header);
 }
 
+.logo-name-an {
+   transition: transform 0.3s ease, text-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
 
+.logo-name-an:hover {
+ transform: perspective(800px)
+            translateZ(50px)
+            rotateX(10deg);
+  text-shadow:
+    0 15px 25px rgba(0, 0, 0, 0.35);
+}
 
 
 
@@ -222,7 +233,7 @@ html {
   flex-direction: column;
   background-color: rgb(2, 2, 24);
   border-radius: 10px;
-  curson:pointer;
+  cursor: pointer;
 }
 
 .project-show {
@@ -435,5 +446,4 @@ html {
     -webkit-filter: invert(100%); 
     filter: invert(100%);
 }
-
 
