@@ -139,7 +139,7 @@ html {
 /* =========================|| ENDS HERE ||========================= */
 
 .main-portfolio {
-  min-height: 90vh;
+  min-height: 90svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,16 +167,12 @@ html {
 }
 
 .about-page {
+  padding: 10rem 1.5rem;
   background-color: var(--page-bgcolor);
   scroll-margin-top: 50px;
-  min-height: 90vh;
-  padding-top: var(--nav-body-pad-top);
-  display: flex;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .title-about {
@@ -195,9 +191,9 @@ html {
 }
 
 .projects-page {
+  padding: 5rem 1.5rem;
+
   scroll-margin-top: 50px;
-  padding-top: 3rem;
-  min-height:  145vh;
   background-color: #1e1e1e;
   display: flex;
   align-items: center;
@@ -249,10 +245,10 @@ html {
 
 
 .contact {
+  padding: 2rem 1.5rem;
+
   background-color: #303841;
   scroll-margin-top: 20px;
-  min-height: 100vh;
-  padding-top: var(--nav-body-pad-top);
 }
 
 .contact-title {
@@ -275,6 +271,7 @@ html {
    padding: 30px;
    border-radius: 10px;
    position: relative;
+   width: 100%;
 }
 
 .contact-buttons {
@@ -283,9 +280,17 @@ html {
   border-radius: 10px;
   background-color: #6e7680;
   color: white;
-  width: 200px;
+  width: 100%;
   padding-left: 35px;
 }
+
+.contact-message {
+  resize: none;
+  min-height: 120px;
+  padding-left: 14px;
+}
+
+
 
 .send-button {
   border: 1px solid black;
@@ -293,7 +298,7 @@ html {
   border-radius: 10px;
   background-color: #496a94;
   color: white;
-  width: 200px;
+  width: 100%;
   font-weight: var(--font-bold);
 }
 
