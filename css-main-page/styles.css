@@ -68,6 +68,19 @@ body {
   padding: var(--padding-header);
 }
 
+.logo-name-an {
+   transition: transform 0.3s ease, text-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.logo-name-an:hover {
+ transform: perspective(800px)
+            translateZ(50px)
+            rotateX(10deg);
+  text-shadow:
+    0 15px 25px rgba(0, 0, 0, 0.35);
+}
+
 .logo-class {
   display: flex;
  align-items: center;
@@ -82,6 +95,11 @@ body {
   transition: all 0.15s 0.05s ease;
   padding: 12px 20px;
   font-size: var(--nav-font-size);
+}
+
+.quote-link {
+  text-decoration: none;
+  color: white;
 }
 
 
