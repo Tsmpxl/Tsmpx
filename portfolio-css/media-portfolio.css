@@ -76,6 +76,12 @@
     gap: 40px;
   }
 
+  .icon-not-working {
+    left: 295px;
+    bottom: 0;
+    top: 200px;
+  }
+
 .contact{
   padding: 6rem 1.5rem;
 }
@@ -218,7 +224,11 @@
   padding-top: var(--nav-body-pad-top);
 }
 
-
+.icon-not-working {
+  left: 395px;
+  bottom: 0;
+  top: 250px;
+}
 
 .form-contact {
   padding-top: 20px;
